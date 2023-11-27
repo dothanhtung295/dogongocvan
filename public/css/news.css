@@ -1,0 +1,29 @@
+@media (min-width: 1535px) {
+    .list-news-relate {
+        row-gap: 49px;
+    }
+}
+@media (max-width: 1535px) {
+    .list-news-relate {
+        row-gap: 5px;
+    }
+}
+
+.list-page .slick-slide {
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
+.list-page.slick-slider {
+    position: static !important;
+}
+.list-picture.slick-slider {
+    position: static !important;
+}
+.list-news .slick-slide {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.list-news.slick-slider {
+    position: static !important;
+}
+

@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~aos/dist/aos.css";
+@import "~@fancyapps/ui/dist/fancybox/fancybox.css";
+@import 'swiper/css/bundle';
+@font-face {
+    font-family: "LexonRegular";
+    src: url("../font/Lexend/Lexend-Regular.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "LexonBold";
+    src: url("../font/Lexend/Lexend-Bold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "LexonSemiBold";
+    src: url("../font/Lexend/Lexend-SemiBold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "LexonLight";
+    src: url("../font/Lexend/Lexend-Light.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "LexonMedium";
+    src: url("../font/Lexend/Lexend-Medium.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "CormorantGaramondRegular";
+    src: url("../font/CormorantGaramond/CormorantGaramond-Regular.ttf");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "CormorantGaramondSemiBold";
+    src: url("../font/CormorantGaramond/CormorantGaramond-SemiBold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "CormorantGaramondBold";
+    src: url("../font/CormorantGaramond/CormorantGaramond-Bold.ttf");
+    font-display: swap;
+}
+
+
+
+/* Css dùng chung */
+/* .slick-dots{
+    bottom: -40px !important;
+    z-index: 30;
+}
+.slick-dotted.slick-slider{
+    margin: 0;
+}
+.slick-dots li.slick-active button:before{
+    background-color: #FD9E2B !important;
+    opacity: 1 !important;
+}
+.slick-dots li button:before{
+    content: '' !important;
+    background-color: #ffffff !important;
+    width: 10px !important;
+    height: 10px !important;
+    opacity: 1 !important;
+    border-radius: 100% !important;
+    border: 1px solid #FD9E2B;
+} */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/googleFont/MaterialIcons-Regular.ttf') format('truetype'); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      /* url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf); */
+  }
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.form_search {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    transition: all .3s ease 0s;
+    width: 100%;
+}
+@media (min-width: 993px) {
+    .form_search {
+        left: unset;
+        right: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+    }
+}
+.menu-aside{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+.menu-aside.show{
+    transform: unset;
+    opacity: 1;
+    transition: opacity 300ms ease;
+}
+

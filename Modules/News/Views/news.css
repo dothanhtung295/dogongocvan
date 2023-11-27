@@ -1,0 +1,62 @@
+.list-news-relate-to .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.list-news-relate-to .slick-list .slick-track .slick-slide {
+    margin-right: 0px;
+}
+
+.list-news-relate-to .item {
+    display: flex !important;
+}
+
+.list-news-relate-to .slick-slide>div {
+    height: 100%;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+.short {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+
+
+/* .box__text:hover *:hover:hover
+
+{
+    color: #fff;
+} */
+.box__text:hover span,
+.box__text span,
+.box__text strong {
+    font-family: 'BeVietnamRegular' !important;
+    background-color: transparent !important;
+    /* color: transparent; */
+}
+
+.group:hover:hover path {
+    fill: #fff;
+}
+
+.box__text:hover:hover strong,
+.box__text:hover:hover span,
+.box__text:hover:hover .short
+{
+    color: #fff;
+}
+.slick-prev:before,
+.slick-next:before {
+   display:none;
+}

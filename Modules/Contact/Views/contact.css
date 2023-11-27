@@ -1,0 +1,10 @@
+.register-email-container, .menu-footer-container, .infor-footer-container{
+    display: none;
+}
+footer{
+    padding-top: 15px !important;
+}
+.copyright-container{
+    padding-top: 0 !important;
+    padding-bottom: 15px !important;
+}

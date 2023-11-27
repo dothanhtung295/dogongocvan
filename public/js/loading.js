@@ -1,0 +1,2 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[234],{634:(s,i,n)=>{var p=n(755);p.loading={start:function(){var s='<div class="spin spin-lg spin-spinning"><span class="spin-dot spin-dot-spin"><i class="spin-dot-item"></i><i class="spin-dot-item"></i><i class="spin-dot-item"></i><i class="spin-dot-item"></i></span><span class="tips">'+(arguments.length>0&&void 0!==arguments[0]?arguments[0]:"")+"</span></div>";p("body").append(s)},end:function(){p(".spin").remove()}}}},s=>{s.O(0,[898],(()=>{return i=634,s(s.s=i);var i}));s.O()}]);
+//# sourceMappingURL=loading.js.map

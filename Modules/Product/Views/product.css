@@ -1,0 +1,60 @@
+/* .inset-shadow {
+    -moz-box-shadow: inset 0 0 10px -3px #bbbbbb;
+    -webkit-box-shadow: inset 0 0 10px -3px #bbbbbb;
+    box-shadow: inset 0 0 10px -3px #bbbbbb;
+} */
+/*
+@media screen and (max-width: 1024px) {
+    .inset-shadow {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+} */
+
+/* .content img {
+    margin: auto;
+} */
+
+/* .sider__right-thumbs .slick-slide.slick-current.slick-active img {
+    border: 1px solid #707070;
+} */
+
+
+/* @media screen and (max-width: 768px) {
+    .slick-list {
+        margin: 0 -7px;
+    }
+} */
+
+.slick-active .image::before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    opacity: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slick-active.slick-current .image::before{
+    background-color: unset !important;
+
+}
+@media screen and (min-width: 768px) {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+
+.item-group.active{
+    background-color: #CE4D00;
+    color: white;
+}

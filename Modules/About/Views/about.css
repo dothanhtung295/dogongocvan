@@ -1,0 +1,44 @@
+.list-achievement-big .slick-list {
+    margin-left: -22.5px;
+    margin-right: -22.5px;
+}
+.list-achievement-small .slick-list {
+    margin-left: -22px;
+    margin-right: -22px;
+}
+.list-solutions .slick-slide {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.list-solutions .slick-list {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+.list-solutions .item{
+    display: flex !important;
+}
+.list-solutions .slick-slide > div {
+    height: 100%;
+}
+.slick-track {
+    display: flex !important;
+}
+.slick-slide {
+    height: inherit !important;
+}
+.content img {
+    margin: auto;
+}
+
+.about__content p {
+    width: 70%;
+    margin: 0px auto;
+}
+.about__content p:has(img) {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .about__content p {
+        width: 100% !important;
+    }
+}

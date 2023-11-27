@@ -1,0 +1,113 @@
+.get__counter{
+    animation: count-up 3s linear forwards;
+}
+
+.title{
+    font-size: 25px;
+    color: #530507;
+    font-family: LexonSemiBold;
+}
+.group-product{
+    font-family: LexonRegular;
+    color: #CE4D00;
+}
+/* .products-focus  .slick-slide{
+    padding: 0 10px;
+}
+
+.products-focus .slick-list{
+    margin: 0 -10px;
+}
+
+.products-focus .slick-center{
+    margin-top: 40px;
+    transition: all 300ms ease;
+} */
+.products-focus .swiper-slide-active{
+    margin-top: 40px;
+    transition: all 300ms ease;
+
+}
+@media only screen and (max-width: 768px)
+{
+    .title {
+        font-size: 18px;
+    }
+    .products-focus .swiper-slide-active{
+        margin-top: 0;
+        transition: all 300ms ease;
+
+    }
+}
+
+.group-item .item{
+    /* top: 100%; */
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out;
+}
+
+.group-item:hover{
+    .item{
+        transform: unset;
+        transition: transform 300ms ease-in-out;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .products-new-container  .slick-slide{
+        padding: 0 10px;
+    }
+
+    .products-new-container .slick-list{
+        margin: 0 -10px;
+    }
+}
+
+.video-container .slick-center{
+    transform: scale(1.1) !important;
+    transition: scale 300ms ease-in-out;
+}
+.video-container .slick-center video{
+    border-radius: 25px;
+}
+.video-container  .slick-slide{
+    transform: scale(0.8);
+    transition: scale 300ms ease-in-out;
+}
+
+.video-container .slick-list{
+    padding: 0 270px !important;
+}
+
+.video-container .swiper-slide {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 446px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transition:all 200ms linear;
+    transform: scale(0.9);
+
+    &.swiper-slide-active{
+      transform: scale(1);
+    }
+  }
+  .video-container .swiper-slide__content {
+    height: 446px;
+  }
+.video-container .swiper-slide-active{
+    height: 520px;
+}
+.video-container .swiper-slide-active video, .video-container .swiper-slide-active img{
+    border-radius: 25px;
+}
+.video-container .swiper-slide-active .absolute{
+    --tw-bg-opacity: 0 !important;
+}
+
+.video-container .swiper-slide-active svg {
+    display: block;
+}
